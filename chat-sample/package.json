@@ -1,8 +1,8 @@
 {
-	"name": "chat-sample",
-	"publisher": "vscode-samples",
+	"name": "vscode-llm-server",
+	"publisher": "amo-vscode-llm-server",
 	"displayName": "Copilot Chat Sample",
-	"description": "Sample chat extension, a trusty cat tutor that will can teach you computer science topics.",
+	"description": "This plugin will allow your any agentic CLI to use github copilot as LLM Provider",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Microsoft/vscode-extension-samples"
@@ -164,13 +164,13 @@
 			},
 			{
 				"command": "chatSample.startLLMServer",
-				"title": "Start OpenAI-compatible LLM Server",
-				"category": "Chat Sample"
+				"title": "Start LLM Server",
+				"category": "LLM Server"
 			},
 			{
 				"command": "chatSample.stopLLMServer",
-				"title": "Stop OpenAI-compatible LLM Server",
-				"category": "Chat Sample"
+				"title": "Stop LLM Server",
+				"category": "LLM Server"
 			}
 		]
 	},
