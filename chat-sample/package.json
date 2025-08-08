@@ -161,6 +161,16 @@
 			{
 				"command": "cat.namesInEditor",
 				"title": "Use Cat Names in Editor"
+			},
+			{
+				"command": "chatSample.startLLMServer",
+				"title": "Start OpenAI-compatible LLM Server",
+				"category": "Chat Sample"
+			},
+			{
+				"command": "chatSample.stopLLMServer",
+				"title": "Stop OpenAI-compatible LLM Server",
+				"category": "Chat Sample"
 			}
 		]
 	},
